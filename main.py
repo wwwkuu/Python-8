@@ -204,8 +204,6 @@ def write_polynomial_to_file(filename, polynomial_str, original_poly=None):
             # file.write("Члены упорядочены по убыванию степеней")
 
         print(f"Файл {filename} полностью перезаписан")
-        print(f"Исходный: {final_original_poly}")
-        print(f"Результат: {polynomial_str}")
 
     except Exception as e:
         print(f"Ошибка при записи в файл: {e}")
@@ -252,3 +250,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
